@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootcamp 2 Bootstrap Basics</title>
+  <!--Link css here-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 1</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 2</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 3</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 4</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 5</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 6</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 7</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 8</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 9</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 10</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 11</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 12</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 13</div>
+    </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 1</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 2</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 3</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 4</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 5</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 6</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 7</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 8</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 9</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 10</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 11</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 12</div>
+        <div class="col-sm-6 col-md-4 col-lg-3">Column 13</div>
+      </div>
+    </div>
+  <div class="container-fluid"><!--Column offsets and resets-->
+    <div class="row">
+      <div class="col-sm-12">Column offsets and resets</div>
+      <div class=" col-sm-4">Column 1</div>
+      <div class="col-sm-7 col-sm-offset-1 col-md-8 col-md-offset-0 col-lg-6 col-lg-offset-2">Column 2</div>
+    </div>
+  </div>
+  <div class="container-fluid"><!--Column Push an Pulls-->
+    <div class="row">
+      <div class="col-sm-12">Column Push and Pulls</div>
+      <div class="col-sm-3 col-md-push-9 col-lg-push-3">Column 1</div>
+      <div class="col-sm-6 col-lg-push-3">Column 2</div>
+      <div class="col-sm-3 col-md-pull-9">Column 3</div>
+    </div>
+  </div>
+  <div class="container-fluid"><!--Nested Columns-->
+    <div class="row">
+      <div class="col-sm-12">Nested Columns</div>
+      <div class="col-sm-4">Column 1</div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-sm-6">Nested Column 1</div>
+          <div class="col-sm-6">Nested Column 2</div>
+          <div class="col-sm-6">Nested Column 3</div>
+          <div class="col-sm-6">Nested Column 4</div>
+          <div class="col-sm-6">Nested Column 5</div>
+          <div class="col-sm-6">Nested Column 6</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container"><!--Clearfix Visible-->
+    <div class="row">
+      <div class="col-sm-6 col-md-4">Column 1
+        <p>This column is longer than the other columns and will need to be clear fixed to keep the columns organized.</p>
+      </div>
+      <div class="clearfix visible-sm-block"></div>
+      <div class="col-sm-6 col-md-4">Column 2</div>
+      <div class="col-sm-6 col-md-4">Column 3</div>
+      <div class="clearfix visible-md-block visibile-lg-block"></div>
+      <div class="col-sm-6 col-md-4">Column 4</div>
+      <div class="col-sm-6 col-md-4">Column 5</div>
+      <div class="col-sm-6 col-md-4">Column 6</div>
+    </div>
+  </div>
+  <div class="container-fluid"><!--Header and Paragraphs-->
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Header Text</h1>
+        <p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="bg-">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa perspiciatis, voluptates error autem saepe alias animi fugiat voluptas doloremque placeat adipisci praesentium quidem, reiciendis harum repellat, sint modi. Alias, quaerat.</p>
+        <p class="bg-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 my-class my-class-1">Column 1</div>
+      <div class="col-md-4 my-class my-class-2">Column 2</div>
+      <div class="col-md-4 my-class my-class-3">Column 3</div>
+    </div>
+  </div>
+    <!--Link JavaScript here-->
+  <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+</body>
+</html>
